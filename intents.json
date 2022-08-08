@@ -1,0 +1,583 @@
+{"intents": [
+ 
+  {"tag": "cacao",
+         "patterns": ["كاكاو"  ,  "كاكو"],
+         "responses": ["كاكاو"]
+    },
+
+   {"tag": "coffee",
+         "patterns": ["قهوة",  "القهوة"  ,  "قهوا"],
+         "responses": ["قهوة"]
+    },
+
+
+{"tag": "milk",
+         "patterns": ["حليب","الحليب"],
+         "responses": ["حليب"]
+    },
+
+    {"tag": "nescafe",
+         "patterns": ["نسكافيه"  ,  "نسكفيه"],
+         "responses": ["نسكافيه"]
+    },
+
+    {"tag": "lemon",
+         "patterns": ["ليمون"  ,  "ليمونة" ,"الليمون"  ,  "ليمونات"],
+         "responses": ["ليمون"]
+    },
+
+
+    {"tag": "mint",
+         "patterns": ["نعنع"  ,  "نعناع","النعنع"  ,  "النعناع"],
+         "responses": ["نعناع"]
+    },
+
+   {"tag": "apple",
+         "patterns": [  "تفاح"  , "تفاحات"  , "تفاحة"  , "التفاح"  ,  "تفاحتين"],
+         "responses": ["تفاح"]
+    },
+   {"tag": "banana",
+         "patterns": ["موز"  ,  "موزة"  ,"موزتين" ],
+         "responses": ["موز"]
+    },
+  {"tag": "orange",
+         "patterns": ["برتقال"  ,  "برتقالة"  ,"بردقان" ],
+         "responses": ["برتقال"]
+    },
+
+
+  {"tag": "honey",
+         "patterns": ["عسل"  ,  "العسل" ],
+         "responses": ["عسل ياعسل"]
+    },
+
+
+   {"tag": "strawberry",
+         "patterns": ["فريز"  ,  "الفريز" ],
+         "responses": ["فريز في منك ع فريز"]
+    },
+
+   {"tag": "mango",
+         "patterns": ["منجا"  ,  "مانجو" ],
+         "responses": ["مانجو"]
+    },
+   
+
+{"tag": "avocado",
+         "patterns": ["أفاكادو","افاكادو"],
+         "responses": ["أفاكادو"]
+    },
+
+   {"tag": "melon",
+         "patterns": ["شمام" ],
+         "responses": ["بطيخ أصفر"]
+    },
+
+   {"tag": "carrots",
+         "patterns": ["جزر" ," الجزر"  ,  "جزرة" ],
+         "responses": ["جزر يقوي النظر"]
+    },
+
+   {"tag": "watermelon",
+         "patterns": ["بطيخ" , "بطيخ أحمر" ],
+         "responses": ["بطيخ أحمر"]
+    },
+
+  {"tag": "cranberry",
+         "patterns": ["كرز" , "الكرز" ],
+         "responses": ["كرز"]
+     },
+   {"tag": "kiwi",
+         "patterns": ["كيوي" , "الكيوي" ],
+         "responses": ["كيوي"]
+    },
+
+  {"tag": "pineapple",
+         "patterns": ["أناناس"  , "الأناناس"],
+         "responses": ["أناناس"]
+    },
+
+
+  {"tag": "tea",
+         "patterns": ["شاي" , "الشاي"],
+         "responses": ["شاي"]
+    },
+
+  {"tag": "oats",
+         "patterns": ["شوفان" , "الشوفان"],
+         "responses": ["شوفان"]
+    },
+
+
+
+    {"tag": "flour",
+         "patterns": ["طحين" , "الطحين"],
+         "responses": ["طحين"]
+    },
+
+   {"tag": "apricot",
+         "patterns": ["مشمش" , "المشمش"],
+         "responses": ["مشمش"]
+    },
+
+  {"tag": "butter",
+         "patterns": ["زبدة" , "الزبدة"],
+         "responses": ["زبدة"]
+    },
+
+ {"tag": "chocolate",
+         "patterns": ["شوكولاتة" , "الشوكولاتة","شوكولا" , "الشوكولا"],
+         "responses": ["شوكولا"]
+    },
+
+
+ {"tag": "egg",
+         "patterns": [ "بيض","بيضة" , "البيض"],
+         "responses": ["بيض"]
+    },
+
+  {"tag": "oil",
+         "patterns": [ "الزيت","زيت"],
+         "responses": ["زيت"]
+    },
+
+   {"tag": "kunafa",
+         "patterns": [ "الكنافة","كنافة"],
+         "responses": ["كنافة"]
+    },
+
+
+   {"tag": "ghee",
+         "patterns": [ "السمنة","سمنة"],
+         "responses": ["سمنة"]
+    },
+
+
+  {"tag": "cream",
+         "patterns": [ "قشطة","كريما"],
+         "responses": ["قشطة"]
+    },
+     
+
+
+   {"tag": "blueberry",
+         "patterns": ["توت" , "التوت" ],
+         "responses": ["توت"]
+     },
+
+
+ 
+  {"tag": "yogurt",
+         "patterns": ["لبن" , "اللبن" ],
+         "responses": ["لبن"]
+     },
+
+
+
+ {"tag": "semolina",
+         "patterns": ["سميد" , "السميد" ],
+         "responses": ["سميد"]
+     },
+
+{"tag": "creamCheese",
+         "patterns": ["جبنة دهن" , "كريمة الحبنة" ],
+         "responses": ["جبنة"]
+     },
+
+
+   {"tag": "watercrees",
+         "patterns": ["الجرجير" , "جرجير" ],
+         "responses": ["جرجير"]
+     },
+
+   {"tag": "sumac",
+         "patterns": ["السماق" , "سماق" ],
+         "responses": ["سماق"]
+     },
+
+
+     {"tag": "gourd",
+         "patterns": ["يقطين" , "القرع" ],
+         "responses": ["يقطين"]
+     },
+
+     {"tag": "tomato",
+         "patterns": ["بندورا" , "بندورة" , "طماطم" ],
+         "responses": ["بندورة"]
+     },
+
+
+    {"tag": "shrimp",
+         "patterns": ["جمبري" , "قريدس" , "روبيان" ],
+         "responses": ["جمبري"]
+     },
+
+
+
+    {"tag": "cuokumbber",
+         "patterns": [ "الخيار" , "خيار","خيارة" ],
+         "responses": ["خيار"]
+     },
+
+
+    {"tag": "spinach",
+         "patterns": [ "السبانج" , "سبانج" ],
+         "responses": ["سبانج"]
+     },
+
+
+    {"tag": "cheese",
+         "patterns": [ "جبن" ," جبنة" , "الجبنة" ],
+         "responses": ["جبنة"]
+     },
+
+
+    {"tag": "potato",
+         "patterns": [ "بطاطا" ," البطاطا" , "بطاطس"," البطاطس"  ],
+         "responses": ["بطاطا"]
+     },
+
+
+    
+    {"tag": "parsley",
+         "patterns": [ " البقدونس" , "بقدونس","بئدونس"  ],
+         "responses": ["بقدونس"]
+     },
+
+
+        {"tag": "corn",
+         "patterns": [ "ذرة" , "الذرة"  ],
+         "responses": ["ذرة"]
+     },
+
+        {"tag": "venus",
+         "patterns": [ "زهرة" , "الزهرة"  ],
+         "responses": ["زهرة"]
+     },
+
+
+        {"tag": "mashroom",
+         "patterns": [ "فطر" , "الفطر"  ],
+         "responses": ["فطر"]
+     },
+
+
+
+        {"tag": "chicken",
+         "patterns": [  "الدجاجة" , "دجاجة" , "دجاج" , "الدجاج"  ],
+         "responses": ["دجاج"]
+     },
+
+
+
+        {"tag": "ozyychip",
+         "patterns": [ "أوزي" , "الأوزي"  ],
+         "responses": ["أوزي"]
+     },
+
+
+        {"tag": "eggplant",
+         "patterns": [ "بيتنجان" , "البيتنجان"," باذنجان" , "الباذنجان"   ],
+         "responses": ["باذنجان"]
+     },
+
+
+        {"tag": "tahina",
+         "patterns": [ "طحينة" , "الطحينة"   ],
+         "responses": ["طحينة"]
+     },
+
+
+        {"tag": "cauliflower",
+         "patterns": [ "قرنبيط" , "القرنبيط"   ],
+         "responses": ["قرنبيط"]
+     },
+
+
+        {"tag": "garlic",
+         "patterns": [ "ثوم" , "الثوم"   ],
+         "responses": ["ثوم"]
+     },
+
+
+        {"tag": "chickpeas",
+         "patterns": [ "حمص" , "الحمص"   ],
+         "responses": ["حمص"]
+     },
+
+
+
+        {"tag": "meat",
+         "patterns": [ "لحوم" , "اللحوم" ,"لحم" , "اللحم"],
+         "responses": ["لحم"]
+     },
+
+
+
+        {"tag": "beard",
+         "patterns": [ "خبز" , "الخبز"     ],
+         "responses": ["خبز"]
+     },
+
+
+
+        {"tag": "beans",
+         "patterns": ["فاصوليا" , "فاصولياء" ,"الفاصوليا" , "الفاصوليا"  ],
+         "responses": ["فاصوليا"]
+     },
+
+
+        {"tag": "lentil",
+         "patterns": ["عدس" ,"العدس"  ],
+         "responses": ["عدس"]
+     },
+
+
+
+        {"tag": "magi",
+         "patterns": ["ماجي" ,"الماجي"  ],
+         "responses": ["ماجي"]
+     },
+
+
+
+
+        {"tag": "walnut",
+         "patterns": ["الجوز" ,"جوز"  ],
+         "responses": ["جوز"]
+     },
+
+
+
+
+        {"tag": "redpepper",
+         "patterns": ["الفلفل" ,"فلفل"  ],
+         "responses": ["فلفل"]
+     },
+
+
+
+        {"tag": "beet",
+         "patterns": ["شمندر","الشوندر" ,"شوندر","الشمندر" ,"شمندور" ],
+         "responses": ["شمندر"]
+     },
+
+
+
+        {"tag": "grapeleaves",
+         "patterns": ["اليبرق" ,"يبرق","ورق العنب" ,"ورق عنب" ],
+         "responses": ["ورق عنب"]
+     },
+
+
+
+        {"tag": "foul",
+         "patterns": ["فول" ,"الفول" ],
+         "responses": ["فول"]
+     },
+
+
+
+        {"tag": "onion",
+         "patterns": ["بصل" ,"البصل","بصلة" ],
+         "responses": ["بصل"]
+     },
+
+
+        {"tag": "pasta",
+         "patterns": ["المعكرونة" ,"باستا","معكرونة" ],
+         "responses": ["باستا"]
+     },
+
+
+        {"tag": "strawberry jam",
+         "patterns": ["مربى الفريز" ,"معود فريز","مربى فريز" ],
+         "responses": ["مربى فريز"]
+     },
+
+
+        {"tag": "tomato jam",
+         "patterns": ["مربى البندورة" ,"دبس بندورة" ],
+         "responses": ["دبس بندورة"]
+     },
+
+        {"tag": "olive",
+         "patterns": ["الزيتون" ,"زيتون" ],
+         "responses": ["زيتون"]
+     },
+
+
+
+        {"tag": "black chocolate",
+         "patterns": ["شوكولا داكنة" ,"شوكولا كاكاو","شوكولا سودا" ],
+         "responses": ["شوكولا داكنة"]
+     },
+
+
+
+        {"tag": "white chocolate",
+         "patterns": ["شوكولا فانيليا" ,"شوكولا حليب","شوكولا بيضاء" ],
+         "responses": ["شوكولا بيضاء"]
+     },
+
+
+        {"tag": "apricot jam",
+         "patterns": ["مربى مشمش" ,"مربى المشمش","معود مشمش" ],
+         "responses": ["مربى المشمش"]
+     },
+
+
+        {"tag": "figs jam",
+         "patterns": ["مربى تين" ,"مربى التين","معود تين" ],
+         "responses": ["مربى التين"]
+     },
+
+
+        {"tag": "grape jam",
+         "patterns": ["مربى عنب" ,"مربى العنب","معود عنب" ],
+         "responses": ["مربى العنب"]
+     },
+
+
+        {"tag": "grape jam",
+         "patterns": ["مربى عنب" ,"مربى العنب","معود عنب" ],
+         "responses": ["مربى العنب"]
+     },
+
+
+
+        {"tag": "yellow cheese",
+         "patterns": ["جبنة صفراء" ,"جبنة الصفراء","جبنة صفرا" ],
+         "responses": ["جبنة صفراء"]
+     },
+
+
+
+        {"tag": "white cheese",
+         "patterns": ["جبنة بيضاء" ,"جبنة البيضاء","جبنة بيضا" ],
+         "responses": ["جبنة بيضاء"]
+     },
+
+
+
+        {"tag": "white cheese",
+         "patterns": ["جبنة بيضاء" ,"جبنة البيضاء","جبنة بيضا" ],
+         "responses": ["جبنة بيضاء"]
+     },
+
+
+
+        {"tag": "toast",
+         "patterns": ["توست" ,"التوست" ],
+         "responses": ["توست"]
+     },
+
+
+
+
+        {"tag": "corne flakes",
+         "patterns": ["كورن فليكس" ],
+         "responses": ["كورن فليكس"]
+     },
+
+
+
+
+        {"tag": "indomie",
+         "patterns": ["اندومي" ],
+         "responses": ["اندومي"]
+     },
+
+
+
+        {"tag": "rosary",
+         "patterns": ["مسبحة" ],
+         "responses": ["مسبحة"]
+     },
+
+
+
+        {"tag": "thyme",
+         "patterns": ["زعتر","الزعتر" ],
+         "responses": ["زعتر"]
+     },
+
+
+        {"tag": "canned meat",
+         "patterns": ["طون","مرتديلا","سردين" ],
+         "responses": ["معلبات"]
+     },
+
+        {"tag": "burger",
+         "patterns": ["همبرغر","برغر" ],
+         "responses": ["برغر"]
+     },
+
+       {"tag": "rice",
+         "patterns": ["الأرز","رز" ],
+         "responses": ["رز"]
+     },
+
+
+       {"tag": "peas",
+         "patterns": ["بزاليا","بازلاء","البزاليا" ],
+         "responses": ["بازلاء"]
+     },
+
+
+
+       {"tag": "fish",
+         "patterns": ["السمك","سمك" ],
+         "responses": ["سمك"]
+     },
+
+
+
+       {"tag": "flifla",
+         "patterns": ["الفلافل","فلافل" ],
+         "responses": ["فلافل"]
+     },
+
+
+       {"tag": "kosa",
+         "patterns": ["الكوسا","كوسا" ],
+         "responses": ["كوسا"]
+     },
+
+
+       {"tag": "mulukhiyah",
+         "patterns": ["الملوخية","ملوخية" ],
+         "responses": ["ملوخية"]
+     },
+
+
+
+       {"tag": "bamia",
+         "patterns": ["بامية","البامية" ],
+         "responses": ["بامية"]
+     },
+
+
+
+       {"tag": "chicken cutlets",
+         "patterns": ["شرحات دجاج","شرحات الدجاج" ],
+         "responses": ["شرحات دجاج"]
+     },
+
+
+
+       {"tag": "long yellow rice",
+         "patterns": ["رز كبسة","رز طويل" ],
+         "responses": ["رز طويل"]
+     },
+
+
+
+       {"tag": "cools",
+         "patterns": ["ملفوف","ملفوفة" ],
+         "responses": ["ملفوف"]
+     }
+
+   ]
+
+}

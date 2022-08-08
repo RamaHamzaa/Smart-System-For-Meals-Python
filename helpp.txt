@@ -1,0 +1,221 @@
+
+
+
+{"intents": [
+    {"tag": "greeting",
+         "patterns": ["نهار سعيد ","يوم جميل" ,"هاي" ,"كيفك"  ,"مرحبا" ,"هل يوجد أحد هنا ؟ " , "أستاذ شات" , "تحياتي"],
+         "responses": ["أهللاً بك ....كيف أستطيع مساعدتك ؟"],
+         "context_set": ""
+        },
+
+     {"tag": "goodbye",
+         "patterns": ["باي", "إلى اللقاء", "سلام","وداعاً","الوداع"],
+         "responses": ["إلى اللقاء.... أتمنى عودتك قريباً", "وداعاً...أتمنى لك يوم جميل ",]
+        },
+
+        {"tag": "thanks",
+         "patterns": ["عراسي","شكراً", "ميرسي", "تشكرات"],
+         "responses": ["لا شكر ع واجب ", "تذكر أنا  دائماً موجود  للمساعدة ", "على الرحب والسعة "]
+   
+
+     },
+   {"tag": "cacao",
+         "patterns": ["كاكاو"  ,  "كاكو"],
+         "responses": ["كاكاو"]
+    },
+
+   {"tag": "coffee",
+         "patterns": ["قهوة"  "القهوة"  ,  "قهوا"],
+         "responses": ["قهوة"]
+    },
+
+
+{"tag": "milk",
+         "patterns": ["حليب","الحليب"],
+         "responses": ["حليب"]
+    },
+
+    {"tag": "nescafe",
+         "patterns": ["نسكافيه"  ,  "نسكفيه"],
+         "responses": ["نسكافيه"]
+    },
+
+    {"tag": "lemon",
+         "patterns": ["ليمون"  ,  "ليمونة","الليمون"  ,  "ليمونات"],
+         "responses": ["ليمون"]
+    },
+
+
+    {"tag": "mint",
+         "patterns": ["نعنع"  ,  "نعناع","النعنع"  ,  "النعناع"],
+         "responses": ["نعناع"]
+    },
+
+   {"tag": "apple",
+         "patterns": [  "تفاح"  , "تفاحات"  , "تفاحة"  , "التفاح"  ,  "تفاحتين"],
+         "responses": ["تفاح"]
+    },
+   {"tag": "banana",
+         "patterns": ["موز"  ,  "موزة"  ,"موزتين" ],
+         "responses": ["موز"]
+    },
+  {"tag": "orange",
+         "patterns": ["برتقال"  ,  "برتقالة"  ,"بردقان" ],
+         "responses": ["برتقال"]
+    },
+
+
+  {"tag": "honey",
+         "patterns": ["عسل"  ,  "العسل" ],
+         "responses": ["عسل ياعسل"]
+    },
+
+
+   {"tag": "strawberry",
+         "patterns": ["فريز"  ,  "الفريز" ],
+         "responses": ["فريز في منك ع فريز"]
+    },
+
+   {"tag": "mango",
+         "patterns": ["منجا"  ,  "مانجو" ],
+         "responses": ["مانجو"]
+    },
+   
+
+{"tag": "avocado",
+         "patterns": ["أفاكادو"],
+         "responses": ["أفاكادو"]
+    },
+
+   {"tag": "melon",
+         "patterns": ["شمام " ],
+         "responses": ["بطيخ أصفر"]
+    },
+
+   {"tag": "carrots",
+         "patterns": ["جزر" ," الجزر"  ,  "جزرة" ],
+         "responses": ["جزر يقوي النظر"]
+    },
+
+   {"tag": "watermelon",
+         "patterns": ["بطيخ" , "بطيخ أحمر" ],
+         "responses": ["بطيخ أحمر"]
+    },
+
+  {"tag": "cranberry",
+         "patterns": ["كرز" , "الكرز" ],
+         "responses": ["كرز"]
+     },
+   {"tag": "kiwi",
+         "patterns": ["كيوي" , "الكيوي" ],
+         "responses": ["كيوي"]
+    },
+
+  {"tag": "pineapple",
+         "patterns": ["أناناس"  , "الأناناس"],
+         "responses": ["أناناس"]
+    },
+
+
+  {"tag": "tea",
+         "patterns": ["شاي" , "الشاي"],
+         "responses": ["شاي"]
+    },
+
+  {"tag": "oats",
+         "patterns": ["شوفان" , "الشوفان"],
+         "responses": ["شوفان"]
+    },
+
+{"tag": "oats",
+         "patterns": ["شوفان" , "الشوفان"],
+         "responses": ["شوفان"]
+    },
+
+
+
+
+
+
+
+
+    {"tag": "flour",
+         "patterns": ["طحين" , "الطحين"],
+         "responses": ["طحين"]
+    },
+
+   {"tag": "apricot",
+         "patterns": ["مشمش" , "المشمش"],
+         "responses": ["مشمش"]
+    },
+
+  {"tag": "butter",
+         "patterns": ["زبدة" , "الزبدة"],
+         "responses": ["زبدة"]
+    },
+
+ {"tag": "chocolate",
+         "patterns": ["شوكولاتة" , "الشوكولاتة","شوكولا" , "الشوكولا"],
+         "responses": ["شوكولا"]
+    },
+
+
+ {"tag": "egg",
+         "patterns": [ "بيض","بيضة" , "البيض"],
+         "responses": ["بيض"]
+    },
+
+  {"tag": "oil",
+         "patterns": [ "الزيت","زيت"],
+         "responses": ["زيت"]
+    },
+
+   {"tag": "kunafa",
+         "patterns": [ "الكنافة","كنافة"],
+         "responses": ["كنافة"]
+    },
+
+
+   {"tag": "ghee",
+         "patterns": [ "السمنة","سمنة"],
+         "responses": ["سمنة"]
+    },
+
+
+  {"tag": "cream",
+         "patterns": [ "الكريمة","كريما"],
+         "responses": ["كريمة"]
+    },
+     
+
+
+   {"tag": "blueberry",
+         "patterns": ["توت" , "التوت" ],
+         "responses": ["توت"]
+     },
+
+
+ 
+  {"tag": "yogurt",
+         "patterns": ["لبن" , "اللبن" ],
+         "responses": ["لبن"]
+     },
+
+
+
+ {"tag": "semolina",
+         "patterns": ["سميد" , "السميد" ],
+         "responses": ["سميد"]
+     }
+
+
+
+
+
+
+   
+     
+    
+   ]
+
+}
